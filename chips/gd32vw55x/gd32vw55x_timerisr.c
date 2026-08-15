@@ -36,7 +36,7 @@
 #include "riscv_internal.h"
 #include "riscv_mtimer.h"
 #include "gd32vw55x_clockconfig.h"
-#include "chip.h"
+#include "include/chip.h"
 
 /****************************************************************************
  * Pre-processor Definitions

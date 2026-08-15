@@ -1,5 +1,9 @@
 /****************************************************************************
+<<<<<<< HEAD
  * arch/risc-v/include/gd32vw55x/chip.h
+=======
+ * arch/risc-v/src/gd32vw55x/chip.h
+>>>>>>> openvela/dev-ai-contest-2026
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -20,6 +24,7 @@
  *
  ****************************************************************************/
 
+<<<<<<< HEAD
 #ifndef __ARCH_RISCV_INCLUDE_GD32VW55X_CHIP_H
 #define __ARCH_RISCV_INCLUDE_GD32VW55X_CHIP_H
 
@@ -59,3 +64,20 @@
 #define GD32VW55X_APP_SRAM_SIZE         (288 * 1024)
 
 #endif /* __ARCH_RISCV_INCLUDE_GD32VW55X_CHIP_H */
+=======
+#ifndef __ARCH_RISCV_SRC_GD32VW55X_CHIP_H
+#define __ARCH_RISCV_SRC_GD32VW55X_CHIP_H
+
+/****************************************************************************
+ * Included Files
+ ****************************************************************************/
+
+/* Include the chip capabilities file */
+
+#include <arch/chip/chip.h>
+
+#include "gd32vw55x_memorymap.h"
+#include "hardware/gd32vw55x_pinmap.h"
+
+#endif /* __ARCH_RISCV_SRC_GD32VW55X_CHIP_H */
+>>>>>>> openvela/dev-ai-contest-2026

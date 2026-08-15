@@ -33,7 +33,12 @@
 #include <nuttx/arch.h>
 
 #include "riscv_internal.h"
+<<<<<<< HEAD
 #include "chip.h"
+=======
+#include "hardware/gd32vw55x_eclic.h"
+#include "include/chip.h"
+>>>>>>> openvela/dev-ai-contest-2026
 
 /****************************************************************************
  * Public Functions

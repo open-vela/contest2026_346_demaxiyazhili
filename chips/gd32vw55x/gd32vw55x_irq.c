@@ -34,7 +34,7 @@
 
 #include "riscv_internal.h"
 #include "hardware/gd32vw55x_eclic.h"
-#include "chip.h"
+#include "include/chip.h"
 
 /****************************************************************************
  * Pre-processor Definitions
