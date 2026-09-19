@@ -423,7 +423,6 @@ int board_lcd_initialize(void)
   /* Turn the display on (ili9341_hwinitialize leaves it off) */
 
   g_lcd->setpower(g_lcd, 1);
-
   lcdinfo("LCD initialized successfully\n");
   return OK;
 }
